@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeLoveMusic</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="lateral" >
+        <button class="botao">
+            <a href=""><img src="iconeperfil-removebg-preview.png" alt="Ícone de usuário" id="usuario"></button></a>
+        <button class="botao">   
+            <a href=""><img src="aaaa-removebg-preview.png" alt="Ícone De Galeria" id="galeria"></button></a>
+        <button class="botao">
+            <a href=""><img src="icone_comunidade-removebg-preview.png.crdownload" alt="Ícone de Comunidade" id="comunidade"></button></a>
+        <button class="botao">
+            <a href=""><img src="icone_interrogação-removebg-preview.png.crdownload" alt="Ícone de Ajuda" id="ajuda"> </button></a>
+    </div>
+
+    <div id="flexbox">
+        <input type="text" id="box">
+        <div id="flex2">
+        <input type="text" class="box23" id="b2">
+        <input type="text" class="box23" id="b3">
+        </div>
+    </div>
+
+    <div>
+        <h2>Galeria</h2>
+        
+            <h3 class="fotos" id="f1">Fotos</h3>
+            <h3 class="fotos">Fotos</h3>
+            <h3 class="fotos">Fotos</h3>
+            <h3 class="fotos">Fotos</h3>
+            <h3 class="fotos">Fotos</h3>
+            <img src="aaaa-removebg-preview.png" alt="Icone de Galeria" class="fotos" id="galeriazinha">
+        
+    </div>
+</body>
+</html>
+
+<!-- #####CSS##### -->
+
+body{
+    margin: 0px;
+    background-color: #E6E6FA;
+}
+
+#lateral{
+    padding-bottom: 160px;
+    background-image: linear-gradient(to bottom right, #d60abb,rgb(255, 136, 0));
+    margin-right: 1250px;
+    border: 0vw;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+#usuario{
+    height: 50px;
+    width: 60px;
+    margin-top: 125px;
+}
+
+#galeria{
+    width: 60px;
+    height: 50px;
+    background-color: white;
+    margin-top: 50px;
+}
+
+#comunidade{
+    margin-top: 50px;
+}
+
+#ajuda{
+    margin-top: 50px;
+}
+
+.botao{
+    background-color: transparent;
+    border: none;
+    color: #000;
+}
+
+#flexbox{
+    text-align: center;
+    margin-left: 100px;
+    margin-top: -630px;
+}
+
+#flex2{
+    background-color: purple;
+    width: 1190px;
+    height: 200px;
+    border-radius: 25px;
+    margin-top: 40px;
+    margin-left: 25px;
+}
+
+#box{
+    width: 1190px;
+    height: 200px;
+    border-radius: 25px;
+    background-color: transparent;
+    border: solid rgb(202, 145, 235);
+}
+
+.box23{
+    background-color: purple;
+    height: 170px;
+    margin-top: 10px;
+    border-radius: 25px;
+    border: 5px solid white;
+}
+
+#b2{
+    margin-right: 40px;
+    width: 300px;
+
+}
+
+#b3{
+    width: 770px;
+}
+
+.fotos{
+    height: 100px;
+    width: 150px;
+    background-color: rgb(172, 71, 172);
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 50px;
+    align-items: center;
+    display:inline-block;
+}
+
+#f1{
+    margin-left: 145px;
+    margin-top: -10px;
+}
+
+#galeriazinha{
+    background-color: transparent;
+    margin-bottom: -80px;
+}
+
+h2{
+    margin-top: 30px;
+    margin-left: 125px;
+    color: rgb(172, 71, 172);
+    margin-bottom: -10px;
+    
+}
+
+h3{
+    display: flex
+}
