@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeLoveMusic</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="lateral" >
+        <a href="https://www.youtube.com/watch?v=AKOEY9PuRfY&ab_channel=Ingl%C3%AAsMinuto">
+            <button class="botao">
+                <img src="iconeperfil-removebg-preview.png" alt="Ícone de usuário" id="usuario">
+            </button>
+        </a>
+        <a href="https://www.w3schools.com/howto/howto_js_popup.asp">
+            <button class="botao">   
+                <img src="aaaa-removebg-preview.png" alt="Ícone De Galeria" id="galeria">
+            </button>
+        </a>
+        <button class="botao">
+            <a href=""><img src="icone_comunidade-removebg-preview.png.crdownload" alt="Ícone de Comunidade" id="comunidade"></a>
+            </button>
+        <button class="botao">
+            <a href=""><img src="icone_interrogação-removebg-preview.png.crdownload" alt="Ícone de Ajuda" id="ajuda"></a> 
+            </button>
+    </div>
+
+    <div id="topo">
+        <h2>Galeria</h2>
+        <a href=""><button id="editar">Editar</button></a>
+    </div>
+
+    <div>
+        <h3 class="fotos" id="f1">Fotos</h3>
+        <h3 class="fotos">Fotos</h3>
+        <h3 class="fotos">Fotos</h3>
+        <h3 class="fotos">Fotos</h3>
+        <h3 class="fotos">Fotos</h3>
+        <h3 class="fotos">Fotos</h3>
+    </div>
+
+    <div>
+        <h3 class="fotos" id="f1">Fotos</h3>
+        <h3 class="fotos">Fotos</h3>
+        <h3 class="fotos">Fotos</h3>
+        <h3 class="fotos">Fotos</h3>
+        <h3 class="fotos">Fotos</h3>
+        <h3 class="fotos">Fotos</h3>
+    </div>
+
+    <div>
+        <h3 class="fotos" id="f1">Fotos</h3>
+        <h3 class="fotos">Fotos</h3>
+        <h3 class="fotos">Fotos</h3>
+        <h3 class="fotos">Fotos</h3>
+        <h3 class="fotos">Fotos</h3>
+        <h3 class="fotos">Fotos</h3>
+    </div>
+
+    <div>
+        <h3 class="fotos" id="f1">Fotos</h3>
+        <h3 class="fotos">Fotos</h3>
+        <h3 class="fotos">Fotos</h3>
+        <h3 class="fotos">Fotos</h3>
+        <h3 class="fotos">Fotos</h3>
+        <h3 class="fotos">Fotos</h3>
+    </div>
+</body>
+</html>
+
+<!-- #####CSS##### -->
+
+body{
+    margin: 0px;
+    background-color: #E6E6FA;
+}
+
+#lateral{
+    padding-bottom: 160px;
+    background-image: linear-gradient(to bottom right, #d60abb,rgb(255, 136, 0));
+    margin-right: 1250px;
+    border: 0vw;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+#usuario{
+    height: 50px;
+    width: 60px;
+    margin-top: 125px;
+}
+
+#galeria{
+    width: 60px;
+    height: 50px;
+    background-color: white;
+    margin-top: 50px;
+}
+
+#comunidade{
+    margin-top: 50px;
+}
+
+#ajuda{
+    margin-top: 50px;
+}
+
+.botao{
+    background-color: transparent;
+    border: none;
+    color: #000;
+}
+
+#topo{
+    align-items: center;
+    display: flex;
+    margin-left: 150px;
+    margin-top: -600px;
+}
+
+h2{
+    color: rgb(172, 71, 172);
+}
+
+#editar{
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(172, 71, 172);
+    color: white;
+    margin-left: 920px;
+    margin-bottom: 0px;
+}
+
+#f1{
+    margin-left: 175px;
+}
+
+.fotos{
+    height: 100px;
+    width: 170px;
+    background-color: rgb(172, 71, 172);
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 16px;
+    align-items: center;
+    display:inline-block;
+}
